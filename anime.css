@@ -1,0 +1,26 @@
+div{
+    width:100px;
+    height:100px;
+    animation-name:myanime;
+    animation-duration:0.5s;
+    animation-delay:0.5s;
+    animation-timing-function:ease;
+    position: relative;
+    border-radius: 200px;
+   
+    bottom:150px;
+   
+    animation-iteration-count:infinite;
+   /* top:20px;
+    bottom:20px;
+    left:20px;
+    right:20px; */
+}
+@keyframes myanime
+{
+    0%{background-color:green;}
+    25%{background-color:red;bottom:25px;}
+    50%{background-color:blue;bottom:25px;}
+    75%{background-color:pink;bottom:25px;}
+    100%{background-color:orange;bottom:25px;}
+}
